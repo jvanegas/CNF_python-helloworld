@@ -2,7 +2,7 @@ name: docker-build-push
 on:
   push:
     branches:
-      - master
+      - main
 jobs:
   build-and-publish:
     name: build Python HelloWorld app
